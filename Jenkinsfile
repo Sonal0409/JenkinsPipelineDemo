@@ -13,7 +13,7 @@ pipeline{
                 git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
             }
         }
-        stage('Compile the code')
+        stage('Compile the code using maven')
         {
             steps{
                 sh 'mvn compile'
